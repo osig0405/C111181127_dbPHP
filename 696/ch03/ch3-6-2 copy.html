@@ -1,0 +1,39 @@
+<head>
+     <meta charset="utf-8" />
+     <title>ch3-6-2.html</title>
+     <style>
+          p {
+               font-size: 10pt;
+               color: red;
+          }
+     </style>
+</head>
+
+<body>
+     <h3>HTML網頁+CSS</h3>
+     <hr />
+     <form>
+          <p>第一頁HTML+CSS網頁</p>
+          GENDER: 
+          Male<input type="radio" name="Gender" value="male" checked="True" />
+          Female<input type="radio" name="Gender" value="female" /><br />
+          Computer:
+          <select name="Computer">
+               <option value="PC" selected="True">PC</option>
+               <option value="MAC">MAC</option>
+          </select><br />
+          Browser:
+          <input type="checkbox" name="GC" checked="True" />Chrome
+          <input type="checkbox" name="SF" />Safari
+          <input type="checkbox" name="FF" />Firefox<br />
+          Recommend Website:
+          <select name="Webs[]" size="4" multiple="True">
+               <option value="w1" selected="True">Yahoo!奇摩</option>
+               <option value="w2">PC Home Online</option>
+               <option value="w3">中華電信Hinet</option>
+               <option value="w4">Google台灣</option>
+          </select>
+          <input type="button" value="送出" onclick="alert('謝謝您的回應')">
+          <input type="reset" value="清除">
+     </form>
+</body>
